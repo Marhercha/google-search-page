@@ -5,30 +5,55 @@ body {
     color: #222;
     appearance: none;
 }
-a:hover {
-    text-decoration: underline;
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
-header, ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+ul {
     list-style-type: none;
-    padding: 6px;
 }
 a {
     padding-left: 20px;
+    color: #222;
     text-decoration: none;
 }
-.topnav li{
-    display: inline-block;
-    float: right;
+a:hover {
+    text-decoration: underline;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+}
+.material-icons {
+    width: 18px;
 }
 .navleft{
-    float: left;
-    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
 }
-
+.navright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+#apps {
+    color: #222;
+    align-items: center;
+}
+.picture {
+    border-radius: 50%;
+}
+.picture:hover {
+    border: gray;
+}
 /* Centro de pantalla */
 
 .center {
@@ -40,7 +65,7 @@ a {
 }
 #logo {
     flex-shrink: 0;
-    padding-top: 180px;
+    padding-top: 250px;
     width: 272px;
 }
 .material-icons .searchbar .mic {
