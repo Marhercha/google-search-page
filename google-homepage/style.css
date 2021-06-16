@@ -1,0 +1,148 @@
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+    appearance: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+ul {
+    list-style-type: none;
+}
+a {
+    padding-left: 20px;
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1px;
+}
+.material-icons {
+    width: 18px;
+}
+.navleft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+}
+.navright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+#apps {
+    color: #222;
+    align-items: center;
+}
+.picture {
+    border-radius: 50%;
+}
+.picture:hover {
+    border: gray;
+}
+/* Centro de pantalla */
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo {
+    flex-shrink: 0;
+    padding-top: 250px;
+    width: 272px;
+}
+.material-icons .searchbar .mic {
+    display: inline-block;
+    align-items: center;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 584px;
+    height: 44px;
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+}
+.search:hover {
+    background-color: white;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.material-icons {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 20px;
+    height: 20;
+    color: #9aa0a6;
+}
+.searchbar{
+    outline: none;
+    border: none;
+    flex: 1;
+    width: auto;
+    font-size: 16px;
+}
+.mic {
+    width: 22px;
+    height: 22px;
+    padding-right: 10px;
+}
+.button {
+    display: inline-block;
+    margin-top: 20px;
+}
+.buttonstyle {
+    margin-inline: 10px;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    border: 1px;
+    border-radius: 5px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+}
+.buttonstyle:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
+/* Bottom navigation bar */
+
+footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.botnav {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+}
+
