@@ -1,2 +1,2 @@
-# the-odin-project
-Google homepage using HTML and CSS.
+# Google Homepage
+Google homepage clone in HTML and CSS.
